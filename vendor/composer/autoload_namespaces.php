@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Symfony\\Component\\Yaml\\' => $vendorDir . '/symfony/yaml',
     'Net' => $vendorDir . '/phpseclib/phpseclib/phpseclib',
     'Math' => $vendorDir . '/phpseclib/phpseclib/phpseclib',
     'JOSE' => $baseDir . '/src',
