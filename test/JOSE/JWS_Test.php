@@ -1,5 +1,7 @@
 <?php
 
+require_once 'File/X509.php';
+
 class JOSE_JWS_Test extends JOSE_TestCase {
     var $plain_jwt;
     var $rsa_keys;
