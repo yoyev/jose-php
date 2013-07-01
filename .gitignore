@@ -1,3 +1,4 @@
 vendor/
 !vendor/phpseclib
 result.xml
+ci/result/
